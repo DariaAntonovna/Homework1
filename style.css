@@ -29,7 +29,7 @@
     font-size  : 64px;
     line-height: 78.02px;
     padding-top: 196px;
-    max-width  : 769px;
+
 }
 
 .header-block__discription {
@@ -59,7 +59,7 @@
     border-radius  : 60px;
     width          : 247px;
     height         : 66px;
-    margin-top     : 64px;
+    margin-top     : 48px;
     padding-top    : 16px;
     text-align     : center;
 }
@@ -112,33 +112,44 @@
     color          : #202027;
 }
 
-.block-game__form {
+.block-game__form13 {
     background-color: #FFFFFF;
     width           : 378px;
     border-radius   : 30px;
     height          : 473px;
 }
 
+.block-game__form25 {
+    background-color: #FFFFFF;
+    width           : 378px;
+    border-radius   : 30px;
+    height          : 512px;
+}
+
+.block-game__form46 {
+    background-color: #FFFFFF;
+    width           : 378px;
+    border-radius   : 30px;
+    height          : 551px;
+}
+
+
 .block-game__form:hover {
     transform: scale(1.1)
 }
 
-.block-game__formbig {
-    height: 551px;
-}
+
+
+
 
 .block-game__img {
     border-radius: 30px;
 }
 
-.block-game__button {
+.block-game__span {
     font-family  : "Montserrat";
-    margin-top   : 32px;
-    margin-left  : 32px;
     border-radius: 52.58px;
     border-color : #F7F7F7;
-    width        : 108px;
-    height       : 36px;
     border       : none;
     font-weight  : 500;
     font-size    : 15px;
@@ -146,16 +157,18 @@
 }
 
 .block-game__title {
-    margin-top : 16px;
-    margin-left: 32px;
     font-weight: 700;
     font-size  : 32px;
     width      : 314px;
+    margin-top : 16px;
 }
 
-.block-game__quiz {
-    height: 512px;
+.block-game__indentation {
+    padding: 32px 32px 20px 32px;
+
 }
+
+
 
 .block-minigame {
     background-color   : #202027;
